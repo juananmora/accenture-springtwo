@@ -5,6 +5,14 @@
     "projectToken": "",
     "baseBranches": []
   },
+  "scanSettings": {
+    "enableIaC": true,
+    "baseBranches": ["integration"]
+  },
+  "checkRunSettings": {
+    "useMendCheckNames": true,
+    "iacCheckRunConclusionLevel": "failure"
+  }
   "scanSettingsSAST": {
     "enableScan": true,
     "scanPullRequests": true,
