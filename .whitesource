@@ -3,21 +3,16 @@
     "configMode": "AUTO",
     "configExternalURL": "",
     "projectToken": "",
+    "enableLicenseViolations": "true",
+    "enableIaC": "true",
     "baseBranches": []
   },
-  "scanSettings": {
-    "enableIaC": true,
-    "baseBranches": ["integration"]
-  },
-  "checkRunSettings": {
-    "useMendCheckNames": true,
-    "iacCheckRunConclusionLevel": "failure"
-  }
   "scanSettingsSAST": {
     "enableScan": true,
     "scanPullRequests": true,
-    "incrementalScan": false,
-    "baseBranches": ["integration"]
+    "incrementalScan": true,
+    "baseBranches": [],
+    "snippetSize": 10
   },
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "failure",
@@ -33,6 +28,7 @@
     "issueType": "DEPENDENCY"
   },
   "remediateSettings": {
+  "extends": ["github>whitesource/merge-confidence:beta"],
     "workflowRules": {
       "enabled": true
     }
