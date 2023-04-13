@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "accenture-springtwo"
+  description: "description for chatgpt"
+  annotations:
+    github.com/project-slug: juananmora/accenture-springtwo
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "team-a"

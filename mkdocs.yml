@@ -1,0 +1,8 @@
+site_name: "accenture-springtwo"
+site_description: "description for chatgpt"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
