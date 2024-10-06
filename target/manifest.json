@@ -57,9 +57,7 @@
             "artifactFileName": "manifest.json"
           }
         },
-
-
-          {
+         {
           "name": "netibsiurg",
           "description": "This is tomcat component",
           "tier": "jboss",
@@ -71,8 +69,6 @@
             "artifactFileName": "manifest.json"
           }
         },
-
-
         {
           "name": "netibsi",
           "description": "This is tomcat component",
@@ -85,9 +81,7 @@
             "artifactFileName": "manifest.json"
           }
         },
-
-
-          {
+        {
           "name": "neticc",
           "description": "This is tomcat component",
           "tier": "jboss",
@@ -98,9 +92,6 @@
             "sourceDirectory": "/target",
             "artifactFileName": "manifest.json"
           }
-        }
-        
-        
         }
       ]
     }
