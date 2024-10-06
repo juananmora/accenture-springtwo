@@ -10,8 +10,8 @@
                "name": "netibs",
                "description": "This is the Hello world test app",
                "tier": "jboss",
-               "file": {
-                  "artifactType": "TOMACAT",
+               "archive": {
+                  "artifactType": "JBOSS",
                   "artifactName": "com.bs.neti:netibs",
                   "artifactVersion": "1.0.0",
                   "sourceDirectory" : "/target",
@@ -22,8 +22,8 @@
                "name": "netiab",
                "description": "This is the Hello world test app",
                "tier": "jboss",
-               "file": {
-                  "artifactType": "TOMCAT",
+               "archive": {
+                  "artifactType": "JBOSS",
                   "artifactName": "com.bs.neti:netiab",
                   "artifactVersion": "1.0.1",
                   "sourceDirectory" : "/target",
@@ -34,8 +34,8 @@
                "name": "netibsemcc",
                "description": "This is the Hello world test app",
                "tier": "jboss",
-               "file": {
-                  "artifactType": "TOMCAT",
+               "archive": {
+                  "artifactType": "JBOSS",
                   "artifactName": "com.bs.neti:netibsemcc",
                   "artifactVersion": "1.0.2",
                   "sourceDirectory" : "/target",
@@ -46,8 +46,8 @@
                "name": "netibsem",
                "description": "This is the Hello world test app",
                "tier": "jboss",
-               "file": {
-                  "artifactType": "TOMCAT",
+               "archive": {
+                  "artifactType": "JBOSS",
                   "artifactName": "com.bs.neti:netibsem",
                   "artifactVersion": "1.0.3",
                   "sourceDirectory" : "/target",
@@ -58,8 +58,8 @@
                "name": "netibsiurg",
                "description": "This is the Hello world test app",
                "tier": "jboss",
-               "file": {
-                  "artifactType": "TOMCAT",
+               "archive": {
+                  "artifactType": "JBOSS",
                   "artifactName": "com.bs.neti:netibsiurg",
                   "artifactVersion": "1.0.4",
                   "sourceDirectory" : "/target",
@@ -70,7 +70,7 @@
                "name": "netibsi",
                "description": "This is the Hello world test app",
                "tier": "jboss",
-               "file": {
+               "archive": {
                   "artifactType": "TOMCAT",
                   "artifactName": "com.bs.neti:netibsi",
                   "artifactVersion": "1.0.5",
@@ -82,8 +82,8 @@
                "name": "neticc",
                "description": "This is the Hello world test app",
                "tier": "jboss",
-               "file": {
-                  "artifactType": "TOMCAT",
+               "archive": {
+                  "artifactType": "JBOSS",
                   "artifactName": "com.bs.neti:neticc",
                   "artifactVersion": "1.0.6",
                   "sourceDirectory" : "/target",
