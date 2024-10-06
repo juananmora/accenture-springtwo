@@ -1,96 +1,108 @@
 {
-   "application": {
-      "name": "ESSAB_BSO_NETI",
-      "version": "1.0.0",
-      "project": "BSO",
-      "mode": "PARALLEL",
-      "components": {
-         "component": [
-            {
-               "name": "netibs",
-               "description": "This is the Hello world test app",
-               "tier": "jboss",
-               "archive": {
-                  "artifactType": "JBOSS",
-                  "artifactName": "com.bs.neti:netibs",
-                  "artifactVersion": "1.0.0",
-                  "sourceDirectory" : "/target",
-                  "patterns": "manifest.json"
-               }
-            },
-            {
-               "name": "netiab",
-               "description": "This is the Hello world test app",
-               "tier": "jboss",
-               "archive": {
-                  "artifactType": "JBOSS",
-                  "artifactName": "com.bs.neti:netiab",
-                  "artifactVersion": "1.0.1",
-                  "sourceDirectory" : "/target",
-                  "patterns": "manifest.json"
-               }
-            },
-            {
-               "name": "netibsemcc",
-               "description": "This is the Hello world test app",
-               "tier": "jboss",
-               "archive": {
-                  "artifactType": "JBOSS",
-                  "artifactName": "com.bs.neti:netibsemcc",
-                  "artifactVersion": "1.0.2",
-                  "sourceDirectory" : "/target",
-                  "patterns": "manifest.json"
-               }
-            },
-              {
-               "name": "netibsem",
-               "description": "This is the Hello world test app",
-               "tier": "jboss",
-               "archive": {
-                  "artifactType": "JBOSS",
-                  "artifactName": "com.bs.neti:netibsem",
-                  "artifactVersion": "1.0.3",
-                  "sourceDirectory" : "/target",
-                  "patterns": "manifest.json"
-               }
-            },
-              {
-               "name": "netibsiurg",
-               "description": "This is the Hello world test app",
-               "tier": "jboss",
-               "archive": {
-                  "artifactType": "JBOSS",
-                  "artifactName": "com.bs.neti:netibsiurg",
-                  "artifactVersion": "1.0.4",
-                  "sourceDirectory" : "/target",
-                  "patterns": "manifest.json"
-               }
-            },
-              {
-               "name": "netibsi",
-               "description": "This is the Hello world test app",
-               "tier": "jboss",
-               "archive": {
-                  "artifactType": "TOMCAT",
-                  "artifactName": "com.bs.neti:netibsi",
-                  "artifactVersion": "1.0.5",
-                  "sourceDirectory" : "/target",
-                  "patterns": "manifest.json"
-               }
-            },
-              {
-               "name": "neticc",
-               "description": "This is the Hello world test app",
-               "tier": "jboss",
-               "archive": {
-                  "artifactType": "JBOSS",
-                  "artifactName": "com.bs.neti:neticc",
-                  "artifactVersion": "1.0.6",
-                  "sourceDirectory" : "/target",
-                  "patterns": "manifest.json"
-               }
-            }
-         ]
-      }
-   }
+  "application": {
+    "name": "ESSAB_BSO_NETI",
+    "version": "1.0.0",
+    "project": "BSO",
+    "mode": "PARALLEL",
+    "components": {
+      "component": [
+        {
+          "name": "netibs",
+          "description": "This is tomcat component",
+          "tier": "jboss",
+          "artifact": {
+            "artifactType": "JBOSS",
+            "artifactName": "com.bs.neti:netibs",
+            "artifactVersion": "1.0.0",
+            "sourceDirectory": "/target",
+            "artifactFileName": "manifest.json"
+          }
+        },
+
+        {
+          "name": "netiab",
+          "description": "This is tomcat component",
+          "tier": "jboss",
+          "artifact": {
+            "artifactType": "JBOSS",
+            "artifactName": "com.bs.neti:netiab",
+            "artifactVersion": "1.0.0",
+            "sourceDirectory": "/target",
+            "artifactFileName": "manifest.json"
+          }
+        },
+
+        {
+          "name": "netibsemcc",
+          "description": "This is tomcat component",
+          "tier": "jboss",
+          "artifact": {
+            "artifactType": "JBOSS",
+            "artifactName": "com.bs.neti:netibsemcc",
+            "artifactVersion": "1.0.0",
+            "sourceDirectory": "/target",
+            "artifactFileName": "manifest.json"
+          }
+        },
+
+          {
+          "name": "netibsem",
+          "description": "This is tomcat component",
+          "tier": "jboss",
+          "artifact": {
+            "artifactType": "JBOSS",
+            "artifactName": "com.bs.neti:netibsem",
+            "artifactVersion": "1.0.0",
+            "sourceDirectory": "/target",
+            "artifactFileName": "manifest.json"
+          }
+        },
+
+
+          {
+          "name": "netibsiurg",
+          "description": "This is tomcat component",
+          "tier": "jboss",
+          "artifact": {
+            "artifactType": "JBOSS",
+            "artifactName": "com.bs.neti:netibsiurg",
+            "artifactVersion": "1.0.0",
+            "sourceDirectory": "/target",
+            "artifactFileName": "manifest.json"
+          }
+        },
+
+
+        {
+          "name": "netibsi",
+          "description": "This is tomcat component",
+          "tier": "jboss",
+          "artifact": {
+            "artifactType": "JBOSS",
+            "artifactName": "com.bs.neti:netibsi",
+            "artifactVersion": "1.0.0",
+            "sourceDirectory": "/target",
+            "artifactFileName": "manifest.json"
+          }
+        },
+
+
+          {
+          "name": "neticc",
+          "description": "This is tomcat component",
+          "tier": "jboss",
+          "artifact": {
+            "artifactType": "JBOSS",
+            "artifactName": "com.bs.neti:neticc",
+            "artifactVersion": "1.0.0",
+            "sourceDirectory": "/target",
+            "artifactFileName": "manifest.json"
+          }
+        }
+        
+        
+        }
+      ]
+    }
+  }
 }
