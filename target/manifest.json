@@ -11,16 +11,11 @@
                "description": "This is the Hello world test app",
                "tier": "jboss",
                "file": {
-                  "artifactType": "JBOSS",
+                  "artifactType": "TOMACAT",
                   "artifactName": "com.bs.neti:netibs",
                   "artifactVersion": "1.0.0",
                   "sourceDirectory" : "/target",
-                  "patterns": "manifest.json",
-                  "jbossConfig" : "jboss7-at-win",
-                  "jbossCli" : "C:\\\\Users\\\\build\\\\EAP-7.0.0\\\\bin\\\\jboss-cli.bat",
-                  "jdbcConnectionString" : "jdbc:mysql://10.200.1.217:3306/jbosshello",
-                  "jdbcUsername" : "flowqe",
-                  "jdbcPassword" : "flowqe"
+                  "patterns": "manifest.json"
                }
             },
             {
@@ -28,16 +23,11 @@
                "description": "This is the Hello world test app",
                "tier": "jboss",
                "file": {
-                  "artifactType": "JBOSS",
+                  "artifactType": "TOMCAT",
                   "artifactName": "com.bs.neti:netiab",
                   "artifactVersion": "1.0.1",
                   "sourceDirectory" : "/target",
-                  "patterns": "manifest.json",
-                  "jbossConfig" : "jboss7-at-win",
-                  "jbossCli" : "C:\\\\Users\\\\build\\\\EAP-7.0.0\\\\bin\\\\jboss-cli.bat",
-                  "jdbcConnectionString" : "jdbc:mysql://10.200.1.217:3306/jbosshello",
-                  "jdbcUsername" : "flowqe",
-                  "jdbcPassword" : "flowqe"
+                  "patterns": "manifest.json"
                }
             },
             {
@@ -45,16 +35,11 @@
                "description": "This is the Hello world test app",
                "tier": "jboss",
                "file": {
-                  "artifactType": "JBOSS",
+                  "artifactType": "TOMCAT",
                   "artifactName": "com.bs.neti:netibsemcc",
                   "artifactVersion": "1.0.2",
                   "sourceDirectory" : "/target",
-                  "patterns": "manifest.json",
-                  "jbossConfig" : "jboss7-at-win",
-                  "jbossCli" : "C:\\\\Users\\\\build\\\\EAP-7.0.0\\\\bin\\\\jboss-cli.bat",
-                  "jdbcConnectionString" : "jdbc:mysql://10.200.1.217:3306/jbosshello",
-                  "jdbcUsername" : "flowqe",
-                  "jdbcPassword" : "flowqe"
+                  "patterns": "manifest.json"
                }
             },
               {
@@ -62,16 +47,11 @@
                "description": "This is the Hello world test app",
                "tier": "jboss",
                "file": {
-                  "artifactType": "JBOSS",
+                  "artifactType": "TOMCAT",
                   "artifactName": "com.bs.neti:netibsem",
                   "artifactVersion": "1.0.3",
                   "sourceDirectory" : "/target",
-                  "patterns": "manifest.json",
-                  "jbossConfig" : "jboss7-at-win",
-                  "jbossCli" : "C:\\\\Users\\\\build\\\\EAP-7.0.0\\\\bin\\\\jboss-cli.bat",
-                  "jdbcConnectionString" : "jdbc:mysql://10.200.1.217:3306/jbosshello",
-                  "jdbcUsername" : "flowqe",
-                  "jdbcPassword" : "flowqe"
+                  "patterns": "manifest.json"
                }
             },
               {
@@ -79,16 +59,11 @@
                "description": "This is the Hello world test app",
                "tier": "jboss",
                "file": {
-                  "artifactType": "JBOSS",
+                  "artifactType": "TOMCAT",
                   "artifactName": "com.bs.neti:netibsiurg",
                   "artifactVersion": "1.0.4",
                   "sourceDirectory" : "/target",
-                  "patterns": "manifest.json",
-                  "jbossConfig" : "jboss7-at-win",
-                  "jbossCli" : "C:\\\\Users\\\\build\\\\EAP-7.0.0\\\\bin\\\\jboss-cli.bat",
-                  "jdbcConnectionString" : "jdbc:mysql://10.200.1.217:3306/jbosshello",
-                  "jdbcUsername" : "flowqe",
-                  "jdbcPassword" : "flowqe"
+                  "patterns": "manifest.json"
                }
             },
               {
@@ -96,16 +71,11 @@
                "description": "This is the Hello world test app",
                "tier": "jboss",
                "file": {
-                  "artifactType": "JBOSS",
+                  "artifactType": "TOMCAT",
                   "artifactName": "com.bs.neti:netibsi",
                   "artifactVersion": "1.0.5",
                   "sourceDirectory" : "/target",
-                  "patterns": "manifest.json",
-                  "jbossConfig" : "jboss7-at-win",
-                  "jbossCli" : "C:\\\\Users\\\\build\\\\EAP-7.0.0\\\\bin\\\\jboss-cli.bat",
-                  "jdbcConnectionString" : "jdbc:mysql://10.200.1.217:3306/jbosshello",
-                  "jdbcUsername" : "flowqe",
-                  "jdbcPassword" : "flowqe"
+                  "patterns": "manifest.json"
                }
             },
               {
@@ -113,16 +83,11 @@
                "description": "This is the Hello world test app",
                "tier": "jboss",
                "file": {
-                  "artifactType": "JBOSS",
+                  "artifactType": "TOMCAT",
                   "artifactName": "com.bs.neti:neticc",
                   "artifactVersion": "1.0.6",
                   "sourceDirectory" : "/target",
-                  "patterns": "manifest.json",
-                  "jbossConfig" : "jboss7-at-win",
-                  "jbossCli" : "C:\\\\Users\\\\build\\\\EAP-7.0.0\\\\bin\\\\jboss-cli.bat",
-                  "jdbcConnectionString" : "jdbc:mysql://10.200.1.217:3306/jbosshello",
-                  "jdbcUsername" : "flowqe",
-                  "jdbcPassword" : "flowqe"
+                  "patterns": "manifest.json"
                }
             }
          ]
