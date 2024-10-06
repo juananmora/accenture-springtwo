@@ -1,7 +1,7 @@
 {
   "application": {
     "name": "ESSAB_BSO_NETI2",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "project": "BSO",
     "mode": "PARALLEL",
     "components": {
@@ -17,7 +17,11 @@
             "jbossConfig" : "jboss7-at-win",
             "jbossCli" : "C:\\\\Users\\\\build\\\\EAP-7.0.0\\\\bin\\\\jboss-cli.bat",            
             "sourceDirectory": "/target",
-            "artifactFileName": "manifest.json"
+            "artifactFileName": "manifest.json",
+            "definitionName": "dirg-batch",
+            "type": "repository-generic",
+            "repositoryName": "artifactory_binaries_pro",
+            "uri": "/com/bancsabadell/dirg/dirgesfin-explo/24.07.161445/dirgesfin-explo-24.07.161445.zip"
           }
         },
 
