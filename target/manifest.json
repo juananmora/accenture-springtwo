@@ -120,7 +120,7 @@
             "sourceDirectory": "/target",
             "artifactFileName": "manifest.json"
           }
-        },        
+        }
       ]
     }
   }
