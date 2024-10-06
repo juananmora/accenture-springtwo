@@ -121,6 +121,96 @@
             "artifactFileName": "manifest.json"
           }
         }
+        ,
+        {
+          "name": "netipp",
+          "description": "This is tomcat component",
+          "tier": "jboss",
+          "artifact": {
+            "artifactType": "JBOSS",
+            "artifactName": "com.bs.neti:netipp",
+            "artifactVersion": "1.0.0",
+            "jbossConfig" : "jboss7-at-win",
+            "jbossCli" : "C:\\\\Users\\\\build\\\\EAP-7.0.0\\\\bin\\\\jboss-cli.bat",       
+            "sourceDirectory": "/target",
+            "artifactFileName": "manifest.json"
+          }
+        }
+        ,
+        {
+          "name": "netiurgbsi",
+          "description": "This is tomcat component",
+          "tier": "jboss",
+          "artifact": {
+            "artifactType": "JBOSS",
+            "artifactName": "com.bs.neti:netiurgbsi",
+            "artifactVersion": "1.0.0",
+            "jbossConfig" : "jboss7-at-win",
+            "jbossCli" : "C:\\\\Users\\\\build\\\\EAP-7.0.0\\\\bin\\\\jboss-cli.bat",       
+            "sourceDirectory": "/target",
+            "artifactFileName": "manifest.json"
+          }
+        }
+        ,
+        {
+          "name": "netiurg",
+          "description": "This is tomcat component",
+          "tier": "jboss",
+          "artifact": {
+            "artifactType": "JBOSS",
+            "artifactName": "com.bs.neti:netiurg",
+            "artifactVersion": "1.0.0",
+            "jbossConfig" : "jboss7-at-win",
+            "jbossCli" : "C:\\\\Users\\\\build\\\\EAP-7.0.0\\\\bin\\\\jboss-cli.bat",       
+            "sourceDirectory": "/target",
+            "artifactFileName": "manifest.json"
+          }
+        }
+        ,
+        {
+          "name": "netiwe",
+          "description": "This is tomcat component",
+          "tier": "jboss",
+          "artifact": {
+            "artifactType": "JBOSS",
+            "artifactName": "com.bs.neti:netiwe",
+            "artifactVersion": "1.0.0",
+            "jbossConfig" : "jboss7-at-win",
+            "jbossCli" : "C:\\\\Users\\\\build\\\\EAP-7.0.0\\\\bin\\\\jboss-cli.bat",       
+            "sourceDirectory": "/target",
+            "artifactFileName": "manifest.json"
+          }
+        }
+        ,
+        {
+          "name": "netidemoem",
+          "description": "This is tomcat component",
+          "tier": "jboss",
+          "artifact": {
+            "artifactType": "JBOSS",
+            "artifactName": "com.bs.neti:netidemoem",
+            "artifactVersion": "1.0.0",
+            "jbossConfig" : "jboss7-at-win",
+            "jbossCli" : "C:\\\\Users\\\\build\\\\EAP-7.0.0\\\\bin\\\\jboss-cli.bat",       
+            "sourceDirectory": "/target",
+            "artifactFileName": "manifest.json"
+          }
+        }
+        ,
+        {
+          "name": "neti-webapp-conf",
+          "description": "This is tomcat component",
+          "tier": "jboss",
+          "artifact": {
+            "artifactType": "JBOSS",
+            "artifactName": "com.bs.neti:neti-webapp-conf",
+            "artifactVersion": "1.0.0",
+            "jbossConfig" : "jboss7-at-win",
+            "jbossCli" : "C:\\\\Users\\\\build\\\\EAP-7.0.0\\\\bin\\\\jboss-cli.bat",       
+            "sourceDirectory": "/target",
+            "artifactFileName": "manifest.json"
+          }
+        }
       ]
     }
   }
