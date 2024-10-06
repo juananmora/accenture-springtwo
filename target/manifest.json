@@ -1,7 +1,7 @@
 {
   "application": {
     "name": "ESSAB_BSO_NETI2",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "project": "BSO",
     "mode": "PARALLEL",
     "components": {
@@ -13,7 +13,7 @@
           "artifact": {
             "artifactType": "JBOSS",
             "artifactName": "com.bs.neti:netibs",
-            "artifactVersion": "1.0.0",
+            "artifactVersion": "1.0.1",
             "jbossConfig" : "jboss7-at-win",
             "jbossCli" : "C:\\\\Users\\\\build\\\\EAP-7.0.0\\\\bin\\\\jboss-cli.bat",            
             "sourceDirectory": "/target",
@@ -28,7 +28,7 @@
           "artifact": {
             "artifactType": "JBOSS",
             "artifactName": "com.bs.neti:netiab",
-            "artifactVersion": "1.0.0",
+            "artifactVersion": "1.0.2",
              "jbossConfig" : "jboss7-at-win",
             "jbossCli" : "C:\\\\Users\\\\build\\\\EAP-7.0.0\\\\bin\\\\jboss-cli.bat",                  
             "sourceDirectory": "/target",
@@ -43,7 +43,7 @@
           "artifact": {
             "artifactType": "JBOSS",
             "artifactName": "com.bs.neti:netibsemcc",
-            "artifactVersion": "1.0.0",
+            "artifactVersion": "1.0.3",
             "jbossConfig" : "jboss7-at-win",
             "jbossCli" : "C:\\\\Users\\\\build\\\\EAP-7.0.0\\\\bin\\\\jboss-cli.bat",       
             "sourceDirectory": "/target",
@@ -58,7 +58,7 @@
           "artifact": {
             "artifactType": "JBOSS",
             "artifactName": "com.bs.neti:netibsem",
-            "artifactVersion": "1.0.0",
+            "artifactVersion": "1.0.4",
             "jbossConfig" : "jboss7-at-win",
             "jbossCli" : "C:\\\\Users\\\\build\\\\EAP-7.0.0\\\\bin\\\\jboss-cli.bat",       
             "sourceDirectory": "/target",
@@ -86,7 +86,7 @@
           "artifact": {
             "artifactType": "JBOSS",
             "artifactName": "com.bs.neti:netibsi",
-            "artifactVersion": "1.0.0",
+            "artifactVersion": "1.0.2",
             "jbossConfig" : "jboss7-at-win",
             "jbossCli" : "C:\\\\Users\\\\build\\\\EAP-7.0.0\\\\bin\\\\jboss-cli.bat",       
             "sourceDirectory": "/target",
@@ -100,7 +100,7 @@
           "artifact": {
             "artifactType": "JBOSS",
             "artifactName": "com.bs.neti:neticc",
-            "artifactVersion": "1.0.0",
+            "artifactVersion": "1.0.1",
             "jbossConfig" : "jboss7-at-win",
             "jbossCli" : "C:\\\\Users\\\\build\\\\EAP-7.0.0\\\\bin\\\\jboss-cli.bat",       
             "sourceDirectory": "/target",
@@ -114,7 +114,7 @@
           "artifact": {
             "artifactType": "JBOSS",
             "artifactName": "com.bs.neti:netiibs",
-            "artifactVersion": "1.0.0",
+            "artifactVersion": "1.0.3",
             "jbossConfig" : "jboss7-at-win",
             "jbossCli" : "C:\\\\Users\\\\build\\\\EAP-7.0.0\\\\bin\\\\jboss-cli.bat",       
             "sourceDirectory": "/target",
@@ -129,7 +129,7 @@
           "artifact": {
             "artifactType": "JBOSS",
             "artifactName": "com.bs.neti:netipp",
-            "artifactVersion": "1.0.0",
+            "artifactVersion": "1.0.4",
             "jbossConfig" : "jboss7-at-win",
             "jbossCli" : "C:\\\\Users\\\\build\\\\EAP-7.0.0\\\\bin\\\\jboss-cli.bat",       
             "sourceDirectory": "/target",
@@ -144,7 +144,7 @@
           "artifact": {
             "artifactType": "JBOSS",
             "artifactName": "com.bs.neti:netiurgbsi",
-            "artifactVersion": "1.0.0",
+            "artifactVersion": "1.0.5",
             "jbossConfig" : "jboss7-at-win",
             "jbossCli" : "C:\\\\Users\\\\build\\\\EAP-7.0.0\\\\bin\\\\jboss-cli.bat",       
             "sourceDirectory": "/target",
@@ -159,7 +159,7 @@
           "artifact": {
             "artifactType": "JBOSS",
             "artifactName": "com.bs.neti:netiurg",
-            "artifactVersion": "1.0.0",
+            "artifactVersion": "1.0.7",
             "jbossConfig" : "jboss7-at-win",
             "jbossCli" : "C:\\\\Users\\\\build\\\\EAP-7.0.0\\\\bin\\\\jboss-cli.bat",       
             "sourceDirectory": "/target",
@@ -174,7 +174,7 @@
           "artifact": {
             "artifactType": "JBOSS",
             "artifactName": "com.bs.neti:netiwe",
-            "artifactVersion": "1.0.0",
+            "artifactVersion": "1.0.8",
             "jbossConfig" : "jboss7-at-win",
             "jbossCli" : "C:\\\\Users\\\\build\\\\EAP-7.0.0\\\\bin\\\\jboss-cli.bat",       
             "sourceDirectory": "/target",
@@ -189,7 +189,7 @@
           "artifact": {
             "artifactType": "JBOSS",
             "artifactName": "com.bs.neti:netidemoem",
-            "artifactVersion": "1.0.0",
+            "artifactVersion": "1.0.8",
             "jbossConfig" : "jboss7-at-win",
             "jbossCli" : "C:\\\\Users\\\\build\\\\EAP-7.0.0\\\\bin\\\\jboss-cli.bat",       
             "sourceDirectory": "/target",
@@ -204,7 +204,7 @@
           "artifact": {
             "artifactType": "JBOSS",
             "artifactName": "com.bs.neti:neti-webapp-conf",
-            "artifactVersion": "1.0.0",
+            "artifactVersion": "1.0.9",
             "jbossConfig" : "jboss7-at-win",
             "jbossCli" : "C:\\\\Users\\\\build\\\\EAP-7.0.0\\\\bin\\\\jboss-cli.bat",       
             "sourceDirectory": "/target",
