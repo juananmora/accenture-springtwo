@@ -1,7 +1,7 @@
 {
   "application": {
     "name": "ESSAB_BSO_NETI2",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "project": "BSO",
     "mode": "PARALLEL",
     "components": {
@@ -106,7 +106,21 @@
             "sourceDirectory": "/target",
             "artifactFileName": "manifest.json"
           }
-        }
+        },
+        {
+          "name": "netiibs",
+          "description": "This is tomcat component",
+          "tier": "jboss",
+          "artifact": {
+            "artifactType": "JBOSS",
+            "artifactName": "com.bs.neti:netiibs",
+            "artifactVersion": "1.0.0",
+            "jbossConfig" : "jboss7-at-win",
+            "jbossCli" : "C:\\\\Users\\\\build\\\\EAP-7.0.0\\\\bin\\\\jboss-cli.bat",       
+            "sourceDirectory": "/target",
+            "artifactFileName": "manifest.json"
+          }
+        },        
       ]
     }
   }
