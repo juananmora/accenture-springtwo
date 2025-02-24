@@ -1,0 +1,20 @@
+name: Deploy Component
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to deploy'
+        required: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Deploy Component
+        run: |
+          echo "🚀 Desplegando versión ${{ github.event.inputs.version }}..."
+          # Comandos de despliegue aquí
